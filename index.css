@@ -1,0 +1,50 @@
+body {
+    background-color: aquamarine;
+}
+.container {
+    margin: 50px 200px;
+}
+
+.conteudos {
+    border: 2px solid #cd853f;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.abas {
+    display: flex;
+}
+
+.abas button {
+    background-color: #fff;
+    border: 2px solid #cd853f;
+    color:#cd853f;
+    cursor: pointer;
+    flex-grow: 1;
+    font-size: 1.25rem;
+    font-weight: bold;
+    outline: none;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: all .5s;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.form input {
+    padding: 10px;
+    border: 2px solid #cd853f;
+}
+.form button {
+    padding: 10px;
+    background-color: #cd853f;
+    border: none;
+    outline: none;
+    color:#fff;
+    font-weight: bold;
+}
+
+
