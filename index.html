@@ -10,19 +10,19 @@
 <body>
     <div class="container">
         <div class="abas">
-            <button>Entrar</button>
-            <button>Cadastrar-se</button>
+            <button class="ativa" data-aba="entrar">Entrar</button>
+            <button data-aba="cadastrar">Cadastrar-se</button>
         </div>
 
         <div class="conteudos">
-            <div class="hide">
+            <div data-conteudo="entrar">
                 <form class="form">
                     <input type="text" name="email" placeholder="Seu e-mail">
                     <input type="password" name="senha" placeholder="Sua senha">
                     <button>Entrar</button>
                 </form>
             </div>
-            <div >
+            <div class="hide" data-conteudo="cadastrar">
                 <form class="form">
                     <input type="text" name="email" placeholder="Seu e-mail">
                     <input type="password" name="Senha" placeholder="Sua senha">

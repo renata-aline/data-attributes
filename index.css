@@ -49,5 +49,9 @@ body {
 .hide {
     display: none;
 }
+.abas .ativa {
+    background-color: #cd853f;
+    color:#fff;
+}
 
 
