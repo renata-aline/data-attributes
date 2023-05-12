@@ -1,38 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Data Attributes</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="abas">
-            <button class="ativa" data-aba="entrar">Entrar</button>
-            <button data-aba="cadastrar">Cadastrar-se</button>
-        </div>
+      <div class="abas">
+        <button class="ativa" data-aba="entrar">Entrar</button>
+        <button data-aba="cadastrar">Cadastrar-se</button>
+      </div>
 
-        <div class="conteudos">
-            <div data-conteudo="entrar">
-                <form class="form">
-                    <input type="text" name="email" placeholder="Seu e-mail">
-                    <input type="password" name="senha" placeholder="Sua senha">
-                    <button>Entrar</button>
-                </form>
-            </div>
-            <div class="hide" data-conteudo="cadastrar">
-                <form class="form">
-                    <input type="text" name="email" placeholder="Seu e-mail">
-                    <input type="password" name="Senha" placeholder="Sua senha">
-                    <input type="password" name="senha" placeholder="Repita a senha">
-                    <button>Cadastrar</button>
-                </form>
-            </div>
+      <div class="conteudos">
+        <div data-conteudo="entrar">
+          <form class="form">
+            <input type="text" name="email" placeholder="Seu e-mail" />
+            <input type="password" name="senha" placeholder="Sua senha" />
+            <button>Entrar</button>
+          </form>
         </div>
-
+        <div class="hide" data-conteudo="cadastrar">
+          <form class="form">
+            <input type="text" name="email" placeholder="Seu e-mail" />
+            <input type="password" name="Senha" placeholder="Sua senha" />
+            <input type="password" name="senha" placeholder="Repita a senha" />
+            <button>Cadastrar</button>
+          </form>
+        </div>
+      </div>
     </div>
-    
-</body>
+    <script src="index.js"></script>
+  </body>
 </html>
